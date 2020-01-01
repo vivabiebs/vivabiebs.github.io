@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SPECIFICITY</title>
+    <link rel="stylesheet" href="public/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+<body style="background-color:lemonchiffon;">
+
+    <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <a class="list-group-item" href="https://vivabiebs.github.io/css/my-best-friends.html" style="background-color: lightblue;"> MY BEST FRIENDS </a>
+          <a class="list-group-item" href="https://vivabiebs.github.io/css/index.html" style="background-color: lightpink;">CSS ZEN GARDEN</a>
+          <a class="list-group-item" target="_blank" href="https://vivabiebs.github.io/specificity.html" style="background-color: lightyellow;">
+            SPECIFICITY
+            </a>
+        </ul>
+    </div>
+
+        <h1 class="alert alert-success">CSS SPECIFICITY</h1>
+        <div class="container-lg" style="background-color: lightcyan;color: black;">
+            <p>CSS Specificity เป็นคอนเซปต์การเลือก CSS Selector ที่มี ความสำคัญ เยอะที่สุด มาใช้กับ Element บนหน้าเว็บไซต์</p>
+            <p>ซึ่ง CSS Selector ได้แก่ element , class , ID และ อีกแบบนึงเลยคือการใส่ style ลงไปใน html เลย</p>
+            <p>ซึ่งเรียงลำดับความสำคัญได้ดังนี้</p>
+            <p>1.เขียน CSS ใส่ใน style เลย</p>
+            <p>2.ID Selector</p>
+            <p>3.Class Selector</p>
+            <p>4.Element Selector</p>
+            <p>จะเห็นได้ว่า ลำดับความสำคัญนี้ สามารถเรียงได้จาก ความจำเพาะเจาะจงไปที่ตัว element นั้นๆ ยิ่งเจาะจงมากเท่าไหร่ CSS จะทำตามคำสั่งนั้นเป็นอันดับแรก</p>
+            <p>สำหรับ !important ที่ไม่ได้กล่าวถึง ถ้าใส่เข้าไปจะเป็นการบังคับใช้ CSS นั้นทันที ไม่ต้องดูความสำคัญกันเลย</p>
+        </div
+        >
+
+        <div class="container-sm" style="background-color: cadetblue;color: aliceblue;">
+            <p>และถ้าหากเราจำเป็นต้องใช้ selector หลายๆอันด้วยกัน ควรทำตามหลักดังนี้</p>
+            <p>ไม่ควรใช้ #ID ใน Selector – การใช้ ID จะทำให้ความแตกต่างระหว่าง Selector มากเกินไป และเขียนทับได้ยาก (ถ้าจะทับต้องเขียน ID, Inline CSS, หรือ !important เท่านั้น ซึ่งทำให้โค้ดเยอะและยาว)</p>
+            <p>ไม่ควรเขียน Selector ซ้อนกันโดยไม่จำเป็น – การเขียนซ้อนโดยไม่จำเป็น จะทำให้ค่าความสำคัญสูงกว่าเดิมโดยไม่จำเป็น ยกเว้นว่าแบบแรกไม่ทำงาน</p>
+            <p>ใช้ Class บ่อยๆ – Class เป็นการเขียน Selector ที่ความสำคัญสูงเกินไป จะเขียนทับก็ไม่ยาก หรือจะสามารถนำมาใช้ใหม่ก็ง่าย</p>
+        </div>
+</body>
+</html>
