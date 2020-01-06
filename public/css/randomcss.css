@@ -1,0 +1,25 @@
+.header{
+    text-align: center;
+    font-family: 'Mali', cursive;
+    font-size: 250%;
+}
+.input{
+    font-family: 'Gochi Hand', cursive;
+}
+table, th, td {
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Mali', cursive;
+}
+table{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.random{
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+}

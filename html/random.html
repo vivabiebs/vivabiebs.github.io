@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Gochi+Hand|Mali|Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/randomcss.css">
+    <link></link>
+    
+    <title>Random Gift Party</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark img-fluid banner" alt="Responsive image">
+      
+        <a class="navbar-brand">VIVABIEBS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- <a class="nav-item nav-link active" href="index.html">HOME</a> -->
+            <a class="nav-item nav-link" href="my-best-friends.html">MY BEST FRIENDS</a>
+            <a class="nav-item nav-link" href="index.html">CSS ZENGARDEN</a>
+            <a class="nav-item nav-link" href="specificity.html">SPECIFICITY</a>
+            <a class="nav-item nav-link" href="random.html">RANDOM GIFT</a>
+          </div>
+        </div>
+      </nav>
+
+    <h1 class="header">RANDOM GIFT PARTY</h1>
+        <div class="container px-lg-5"></div>
+            <div class="row mx-lg-n5">
+                <div class="col py-3 px-lg-5">
+                    <span class="input">
+                        <h2 class="text">Enter your name to JOIN THE PARTY</h2> 
+                        <input id="textInput" type="text">
+                        <button id="submitBtn" onclick="get()">submit</button>
+                        <button id="addInputBtn" onclick="addInput()">+</button>
+                        <div id="inputForm"></div>
+                    </span>
+                </div>
+
+                <div class="col py-3 px-lg-5">
+                    <span class="input">
+                        <h2>Enter gifts number</h2>
+                        <input id="numInput" type="text">
+                        <button id="addNumBtn" onclick="addNum()"> >> </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div> 
+            <button class="random" id="randomBtn" onclick="random()">RANDOM</button>
+        </div>
+
+        <!-- <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gift's Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> -->
+
+
+
+    <script src="./public/js/randomjs.js"></script>
+</body>
+</html>
