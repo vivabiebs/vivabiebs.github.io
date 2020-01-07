@@ -1,7 +1,13 @@
+body{
+    background-image: url(../../images/bg_random.jpg);
+    background-size: cover;
+  }
 .header{
     text-align: center;
-    font-family: 'Mali', cursive;
-    font-size: 250%;
+    font-family: 'Bangers', cursive;
+    font-size: 400%;
+    color: white;
+    background-color: palevioletred;
 }
 .input{
     font-family: 'Gochi Hand', cursive;
@@ -11,7 +17,6 @@ table, th, td {
     margin-right:auto;
     border: 1px solid black;
     border-collapse: collapse;
-    font-family: 'Mali', cursive;
 }
 table{
     padding-top: 50px;
@@ -19,7 +24,27 @@ table{
     padding-bottom: 50px;
     padding-left: 80px;
 }
+.button{
+    margin: 0 auto;
+    display: block;
+}
 .random{
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Bangers', cursive;
+    font-size: 290%;
+    background-color: navy;
+    color: hotpink;
+}
+#submitBtn , #addInputBtn, #addNumBtn {
+    background-color: lightpink;
+    color: black;
+}
+#lucky , #luckyName{
     text-align: center;
+    font-family: 'Gochi Hand', cursive;
+}
+#lucky{
+    font-size: 200%;
+}
+#luckyName{
+    font-size: 100%;
 }
