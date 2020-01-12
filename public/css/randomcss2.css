@@ -1,0 +1,50 @@
+body{
+    background-image: url(../../images/bg_random2.jpeg);
+    background-size: cover;
+  }
+.header{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 400%;
+    color: white;
+    background-color: orange;
+}
+.input{
+    font-family: 'Gochi Hand', cursive;
+}
+table, th, td {
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.button{
+    margin: 0 auto;
+    display: block;
+}
+.random{
+    font-family: 'Bangers', cursive;
+    font-size: 290%;
+    background-color:orangered;
+    color: black;
+}
+#submitBtn , #addInputBtn, #addNumBtn {
+    background-color: navy;
+    color:white;
+}
+#lucky , #luckyName{
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+}
+#lucky{
+    font-size: 200%;
+}
+#luckyName{
+    font-size: 100%;
+}
