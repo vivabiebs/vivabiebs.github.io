@@ -35,8 +35,8 @@
                     <span class="input">
                         <h2 class="text">Enter your name to JOIN THE PARTY</h2> 
                         <input id="textInput" type="text">
-                        <button id="submitBtn" onclick="get()">submit</button>
-                        <button id="addInputBtn" onclick="addInput()">+</button>
+                        <button id="submitBtn">submit</button>
+                        <button id="addInputBtn">+</button>
                         <div id="inputForm"></div>
                     </span>
                 </div>
@@ -45,7 +45,7 @@
                     <span class="input">
                         <h2>Enter gifts number</h2>
                         <input id="numInput" type="text">
-                        <button id="addNumBtn" onclick="addNum()"> ^ </button>
+                        <button id="addNumBtn"> ^ </button>
                     </span>
                 </div>
             </div>
@@ -53,29 +53,12 @@
 
 
         <div class="button"> 
-            <button class="random" id="randomBtn" onclick="random()">RANDOM</button>
+            <button class="random" id="randomBtn"">RANDOM</button>
         </div>
-
-        <!-- <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Gift's Number</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div> -->
             <p id="lucky">LUCKY PARTICIPANTS</p>
             <p id="luckyName" class="lucky-name"></p>
 
-    <script src="../public/js/randomjs.js"></script>
+    <script src="../public/js/jquery-3.4.1.js"></script>
+    <script src="../public/js/randomjquery.js"></script>
 </body>
 </html>
