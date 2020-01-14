@@ -1,0 +1,28 @@
+body{
+    background-color: pink;
+    background-image: url(../../images/bg_random.jpg);
+    font-family: Skia Light;
+}
+h1 ,h2 ,abbr{
+    text-align: center;
+}
+h1{
+    color: black;
+    font-family: 'Shrikhand', cursive;
+    font-size: 3.8em;
+    text-align: center;
+}
+.Meals{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Kanit', sans-serif;
+}
+.eat{
+    background-color: navy;
+    color: aliceblue;
+}
+#randomBtn{
+    font-family: 'Shrikhand', cursive;
+}
+
+
